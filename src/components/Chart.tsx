@@ -2,8 +2,6 @@ import logo from "../assets/images/logo.svg";
 import Pillar from "./Pillar";
 import data from "../data/data.json";
 
-type test = number[];
-
 const Chart = () => {
   const today = new Date()
     .toLocaleString("en-us", { weekday: "short" })
