@@ -5,8 +5,6 @@ type Props = {
 };
 
 const Pillar = ({ amount, day, today }: Props) => {
-  let height = `${amount}%`;
-
   return (
     <div className="flex flex-col mt-auto items-center">
       <div className="group space-y-1 h-full">
