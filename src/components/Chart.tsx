@@ -9,18 +9,6 @@ const Chart = () => {
     .toLocaleString("en-us", { weekday: "short" })
     .toLowerCase();
 
-  let total = 0;
-  let allAmounts: test = [];
-
-  // Calculates the total amount of data and stores all the amounts in an array.
-  data.forEach((am) => {
-    total = total + am.amount;
-    allAmounts.push(am.amount);
-  });
-
-  console.log(data);
-  console.log(allAmounts);
-
   return (
     <main className="min-w-[90%] md:min-w-[50%] lg:min-w-[40%] xl:min-w-[30%] flex flex-col gap-4">
       <section className="flex items-center justify-between px-8 py-4 text-Verypaleorange bg-Softred rounded-2xl">
